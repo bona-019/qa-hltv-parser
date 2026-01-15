@@ -1,0 +1,21 @@
+# Ambiente virtual
+venv/
+.venv/
+.htlv-venv/
+
+__pycache__/
+*.pyc
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs gerados
+parser/output/
+*.json
+
+# Sistema / IDE
+.vscode/
+.idea/
+.DS_Store
